@@ -1,0 +1,92 @@
+<html>
+<head><title>ABC shopping Mall</title>
+<link rel="stylesheet" type="text/css" href="..\css\style.css">
+<link rel="stylesheet" type="text/css" href="..\css\new3.css">
+
+</head>
+<body>
+<header>
+  <div class="Navigation">
+  <img src="..\images\Logo4.png" width="100" height="120" class="logo">    
+	<ul class="menu">
+         <li><b><a href="#">HOME</a></b></li>
+         <li><b><a href="#">Categories</a></b></li>
+         <li><b><a href="#">Track my Order</a></b></li>
+         <li><b><a href="#">Contact Us</a></b></li>
+		 <li><b><a href="#">My Cart</a></b></li>
+	</ul>
+	  <div class="dropdown">
+	   <button class="dropbtn">Account</button>
+	    <div class="dropdown-content">
+	     <a href="#">Log In</a>
+	     <a href="#">Log Out</a>
+	     <a href="#">Register</a>
+	    </div>	
+	   </div>	
+	 	
+	 <form class="search-form">
+	   <input type="text" placeholder="Search">
+	   <button> Search</button>
+	   </form>
+	   <a href="../html/html2.php">
+	   <img src="..\images\profile.png" width="70px" height="70px" alt="Profile" class="profile" >
+	   </a>
+	  </div> 
+ </header>
+<section>
+<form id="form2" action="addData.php" method="POST">
+<h3 align="center" size="30" >Feedback</h3>
+  <h3>Feedback Type</h3><br>
+  
+  <b style="font-size:19px;">Comments &nbsp </b> <input type="radio" id="Comments" name="type" value="Comments">
+  <b style="font-size:19px;">&nbsp Suggetions &nbsp </b> <input type="radio" id="Suggetions" name="type" value="Suggetions">
+  <b style="font-size:19px;">&nbsp Questions &nbsp </b><input type="radio" id="Questions" name="type" value="Questions">
+  <pre>
+  <br>
+  <label for="feedback"><h4>Describe Your feedback:</h4></label>
+	<br>
+  <textarea class="txt" id="feedback" name="feedback" rows="15" cols="60">
+  </textarea>
+<div class="class1">
+  <label for="name"><h4>Name:</h4></label>
+
+  <input type="text" id="name" name="name">
+
+  <label for="email"><h4>Your Email Address:</h4></label>
+
+  <input type="text" id="email" name="email">
+
+  <button type="button" name='submit' onclick="alert('Feedback Submitted')" id="reset">SUBMIT</button>
+ </pre>
+ </div>
+</form> 
+</section>
+
+ <footer>
+ <p align="right" style="font-size:20px">
+ <b>Online Shopping Sri Lanka with Home Delivery</b></p>
+ <p align="center" style="color:red">
+ <b>Quick Links:</b><br><br>
+ <b><a href="#">HOME</a></b><br>
+ <b><a href="#">Categories</a></b><br>
+ <b><a href="#">Terms and Conditions</a></b><br>
+ <b><a href="#">Contact Us</a></b></p>
+ 
+ 
+<p class="follow" align="left"><b> Follow Us On:</b></p>
+<div class="social-icons">
+        	<a href="#" ><img src="..\images\fb1.png"></a>
+		<a href="#" ><img src="..\images\tw.png"></a>
+		<a href="#" ><img src="..\images\goo.png"></a>
+</div>
+
+<p class="payment" align="right"><b> Payment Methods: </b></p>
+<div class="pay-icons">
+        	<a href="#"><img src="..\images\visa.png"></a>
+		<a href="#"><img src="..\images\master.png"></a>
+		<a href="#"><img src="..\images\paypal.png"></a>
+</div>
+
+</footer>
+</body>
+</html>

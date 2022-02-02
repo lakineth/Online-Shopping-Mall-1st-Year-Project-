@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Buy Lanka Log In or Register</title>
+  <link rel="stylesheet" type="text/css" href="..\CSS\styles1.css" />
+  
+</head>
+<body>
+   <div class="laki">
+     <div class="form-box">
+	  <div class="button-box">
+	     <div id="btn"></div>
+	     <button type="button" class="toggle-btn" onclick="login()">Log In</button>	 
+	     <button type="button" class="toggle-btn" onclick="register()">Register</button>	 
+	  </div>
+	  <div class="social-icons">
+	  
+	    <a href="#"><img src="..\images\fb1.png"></a>
+		<a href="#"><img src="..\images\tw.png"></a>
+		<a href="#"><img src="..\images\goo.png"></a>
+	  </div>
+	  <form id="login" class="input-group" action="log.php" method="POST">
+	   <input type="text" class="input-field" name="Username" placeholder="User Name" required>
+	   <input type="password" class="input-field" name="Password" placeholder= "Password" required>
+	   <a href="../html/ResetPassword.html">
+	   <p class="forgot"><u>Forgot Password</u></p>
+	   </a>
+	   <a href="#"> <button type="submit" name="log_btn" class="submit-btn">Log In</button></a>
+	  </form> 
+	   <form id="register" class="input-group" action="config.php" method="POST">
+	   <input type="email" class="input-field" name="Email" placeholder="Email" required>
+	   <input type="number" class="input-field" name="Number" placeholder="Phone Number" required>
+	   <input type="text" class="input-field" name="Username" placeholder="User Name" required>
+	   <input type="password" class="input-field" name="Password" placeholder= "Password" required>
+	   <input type="checkbox" class="check-box"><span>Agree to Terms and Condition</span>
+	   <a href="#"> <button type="submit" class="submit-btn">Register</button></a>
+	  </form> 
+	 </div>
+   </div>
+   
+   <script  type="text/javascript" src="..\js\script.js"></script>
+   
+	</body>
+</html>

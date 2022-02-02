@@ -1,0 +1,294 @@
+<?php
+ session_start();
+ if(!isset($_SESSION['Password'])){
+    header('location:Log and Reg.html');
+ }
+ ?>
+
+
+<html>
+<head>
+   <title>Buy Lanka</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="..\CSS\styles2.css">
+</head>
+
+<body>
+
+<header>
+  <div class="Navigation">
+  <img src="..\images\Logo4.png" width="100" height="120" class="logo">    
+	<ul class="menu">
+         <li><a href="../html/Home page.html">HOME</a></li>
+         <li><a href="../html/Category.html">Categories</a></li>
+         <li><a href="../html/index1.php">Track my Order</a></li>
+         <li><a href="../html/ContactUs.html">Contact Us</a></li>
+		 <li><a href="../html/cart_page.html">My Cart</a></li>
+     </ul>
+	  <div class="dropdown">
+	   <button class="dropbtn">Account</button>
+	    <div class="dropdown-content">
+	     <a href="../html/Log and Reg.html">Log In</a>
+	     <a href="../html/Log and Reg.html">Log Out</a>
+	     <a href="../html/Log and Reg.html">Register</a>
+	    </div>	
+	   </div>	
+	 <form class="search-form">
+	   <input type="text" placeholder="Search">
+	   <button> Search</button>
+	   </form>
+	   <a href="../html/html2.php">
+	   <img src="..\images\profile.png" width="70px" height="70px" alt="Profile" class="profile" >
+	   </a>
+ </header>
+ <section>
+  <h1 class="he">Tv And Home Audio</h1>
+  <div class="row">
+     <div class="column">
+	  <img src="../images/image8.jpg" width="100%">
+	  <div class="desc"><b>Samsung UHD 43" Smart TV</b></div>
+	  <div class="price"><b> Rs.111000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	  
+	 </div> 
+	 <div class="column">
+	  <img src="../images/image9.jpg" width="100%">
+	  <div class="desc"><b>LG UHD 43" 4K Smart TV</b></div>
+	  <div class="price"><b> Rs.125000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div> 
+	 <div class="column">
+	  <img src="../images/image10.jpg" width="100%">
+	  <div class="desc"><b>LG Home Theater(5 in 1)</b></div>
+	  <div class="price"><b> Rs.43000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>
+	 <div class="column">
+	  <img src="../images/image11.jpg" width="100%">
+	  <div class="desc"><b>LG X-Boom Hi-Fi System</b></div> 
+	  <div class="price"><b> Rs.71000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	  <div class="column">
+	  <img src="../images/image12.jpg" width="100%">
+	  <div class="desc"><b>Hisense 55 Inch UHD 4K Smart TV </b></div> 
+	  <div class="price"><b> Rs. 114,990.00</b></div>
+	  <a href="../html/new_item_page.html" class="btn btn1">Buy Now</a>
+	  <a href="../html/cart_page.html" class="btn btn2">Add to Cart</a>
+	 </div>  
+  </div>	 
+  <h1 class="he">Mobile Phones</h1>
+  <div class="row">
+     <div class="column">
+	  <img src="../images/redmi.jpg" width="100%">
+	  <div class="desc"><b>Redmi Note 9 Pro(6GB Ram)</b></div>
+	  <div class="price"><b> Rs.40000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	  
+	 </div> 
+	 <div class="column">
+	  <img src="../images/huawei.jpg" width="100%">
+	  <div class="desc"><b>Huawei Nova 7i (8GB Ram)</b></div>
+	  <div class="price"><b> Rs.41500.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div> 
+	 <div class="column">
+	  <img src="../images/image 6.jpg" width="100%">
+	  <div class="desc"><b>iPhone 11 Pro Max</b></div>
+	  <div class="price"><b> Rs.210000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>
+	 <div class="column">
+	  <img src="../images/image 7.jpg" width="100%">
+	  <div class="desc"><b>Samsung Galaxy Note 8 Plus</b></div> 
+	  <div class="price"><b> Rs.71000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	  <div class="column">
+	  <img src="../images/opp.jpg" width="100%">
+	  <div class="desc"><b>Oppo F11 Pro</b></div> 
+	  <div class="price"><b> Rs.50000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+  </div>	
+ <h1 class="he">Laptops</h1>  
+   <div class="row">
+     <div class="column">
+	  <img src="../images/lap1.jpg" width="100%">
+	  <div class="desc"><b>Dell Inspiron 5593 i7</b></div>
+	  <div class="price"><b> Rs.90000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	  
+	 </div> 
+	 <div class="column">
+	  <img src="../images/lap2.jpg" width="100%">
+	  <div class="desc"><b>Acer Aspire 3 i5</b></div>
+	  <div class="price"><b> Rs.91500.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div> 
+	 <div class="column">
+	  <img src="../images/lap3.jpg" width="100%">
+	  <div class="desc"><b>Asus Zenbook Pro i7</b></div>
+	  <div class="price"><b> Rs.225000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>
+	 <div class="column">
+	  <img src="../images/lap4.jpg" width="100%">
+	  <div class="desc"><b>HP Spectre X360 i5</b></div> 
+	  <div class="price"><b> Rs.158000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	  <div class="column">
+	  <img src="../images/lap5.jpg" width="100%">
+	  <div class="desc"><b>Acer Predetor 8GB i7</b></div> 
+	  <div class="price"><b> Rs.200000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+  </div>	
+  <h1 class="he">Brands</h1>  
+   <div class="row">
+     <div class="column">
+	  <img src="../images/apple.png" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/samsung.png" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/redmilg.png" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/huaweilg.jpg" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/dell.png" width="100%"></div> 
+	  <div class="column">
+	  <img src="../images/acer.png" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/asus.png" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/lenovo.png" width="100%"></div> 
+	  <div class="column">
+	  <img src="../images/sony.png" width="100%"></div>
+	  <div class="column">
+	  <img src="../images/panasonic.png" width="100%"></div>
+	</div>  
+	  
+	  <h1 class="he">Just For You</h1>  
+     <div class="row">
+     <div class="column">
+	  <img src="../images/watch1.jpg" width="100%">
+	  <div class="desc"><b>M4 band Smart Watch</b></div>
+	  <div class="price"><b> Rs.1200.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div> 
+	 <div class="column">
+	  <img src="../images/watch2.jpg" width="100%">
+	  <div class="desc"><b>Padgene DZ09 Smart watch</b></div>
+	  <div class="price"><b> Rs.1500.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div> 
+	 <div class="column">
+	  <img src="../images/handfree1.jpg" width="100%">
+	  <div class="desc"><b>Samsung AKG Handfree</b></div>
+	  <div class="price"><b> Rs.500.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>
+	 <div class="column">
+	  <img src="../images/power1.jpg" width="100%">
+	  <div class="desc"><b>MI2 Power Bank 10000mah</b></div> 
+	  <div class="price"><b> Rs.4000.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	 <div class="column">
+	  <img src="../images/handfree3.jpg" width="100%">
+	  <div class="desc"><b>Wireless Sports Handfree</b></div> 
+	  <div class="price"><b> Rs.800.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	 <div class="column">
+	  <img src="../images/headset1.jpg" width="100%">
+	  <div class="desc"><b>JBL T450BT Wireless</b></div> 
+	  <div class="price"><b> Rs.15800.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>   
+	 <div class="column">
+	  <img src="../images/pen1.jpg" width="100%">
+	  <div class="desc"><b>Kingston 8GB 16GB 32GB 64GB</b></div> 
+	  <div class="price"><b> Rs.900.00 Upwards</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	 <div class="column">
+	  <img src="../images/pen2.jpg" width="100%">
+	  <div class="desc"><b>Snadisk Ultra 32GB</b></div> 
+	  <div class="price"><b> Rs.1450.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div> 
+	 <div class="column">
+	  <img src="../images/sd1.jpg" width="100%">
+	  <div class="desc"><b>Kingston SD card 64GB</b></div> 
+	  <div class="price"><b> Rs.1200.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+	 <div class="column">
+	  <img src="../images/sd2.jpg" width="100%">
+	  <div class="desc"><b>Sandisk Ultra SD card 128gb<b></div> 
+	  <div class="price"><b> Rs.2500.00</b></div>
+	  <a href="#" class="btn btn1">Buy Now</a>
+	  <a href="#" class="btn btn2">Add to Cart</a>
+	 </div>  
+  </div>	<br><br>
+  
+
+	
+ </section>
+  <footer>
+ <p align="right" style="font-size:20px">
+ <b>Online Shopping Sri Lanka with Home Delivery</b></p>
+ <p align="center" style="color:red">
+ <b>Quick Links:</b><br><br>
+ <b><a href="../html/Home page.html">HOME</a></b><br>
+ <b><a href="../html/Category.html">Categories</a></b><br>
+ <b><a href="../html/helpAndFeedback.html">Help and Feedback</a></b><br>
+ <b><a href="../html/contactus.html">Contact Us</a></b></p>
+ 
+ <div class="store-icons">
+ <img src="..\images\stores.jpg">
+ </div>
+ 
+<p class="follow" align="left"><b> Follow Us On:</b></p>
+<div class="social-icons">
+        <a href="#" ><img src="..\images\fb1.png"></a>
+		<a href="#" ><img src="..\images\tw.png"></a>
+		<a href="#" ><img src="..\images\goo.png"></a>
+</div>
+
+<p class="payment" align="right"><b> Payment Methods: </b></p>
+<div class="pay-icons">
+        <a href="#"><img src="..\images\visa.png"></a>
+		<a href="#"><img src="..\images\master.png"></a>
+		<a href="#"><img src="..\images\paypal.png"></a>
+</div>
+
+</footer>
+
+</body>
+</html>

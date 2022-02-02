@@ -1,0 +1,145 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+   <title>Buy Lanka Shopping Mall</title>
+   <link rel="stylesheet" type="text/css" href="../css/checkout.css">
+   <script type="text/javascript" src="../js/script.js"></script>
+</head>
+
+<body>
+<header>
+  <div class="Navigation">
+  <img src="..\images\Logo4.png" width="100" height="120" class="logo">    
+	<ul class="menu">
+         <li><a href="../html/Home page2.html">HOME</a></li>
+         <li><a href="../html/Category.html">Categories</a></li>
+         <li><a href="#">Track my Order</a></li>
+         <li><a href="../html/ContactUs.html">Contact Us</a></li>
+		 <li><a href="../html/cart_page.html">My Cart</a></li>
+	</ul>
+	  <div class="dropdown">
+	   <button class="dropbtn">Account</button>
+	    <div class="dropdown-content">
+	     <a href="../html/Log and Reg.html">Log In</a>
+	     <a href="../html/Log and Reg.html">Log Out</a>
+	     <a href="../html/Log and Reg.html">Register</a>
+	    </div>	
+	   </div>	
+	 	
+	 <form class="search-form">
+	   <input type="text" placeholder="Search">
+	   <button onclick="myFunction()"> Search</button>
+	   </form>
+	   <a href="../html/html2.php">
+	   <img src="..\images\profile.png" width="70px" height="70px" alt="Profile" class="profile" >
+	   </a>
+	  </div> 
+ </header>
+  
+<br><br>
+<h2>BUY LANKA Checkout Form</h2><br>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3><br>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3><br>
+            <label for="fname">Accepted Cards</label><br>
+			<select id="fname">
+			<option>Payment Method</option>
+						<option value="1">visa</option>
+                        <option value="2">master</option>
+                        <option value="3">Cash on Delivery</option>
+              </select>
+                    <span></span>
+            <div class="icon-container">
+              <fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> I accept the Terms of Use & Privacy Policy
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+
+      </form>
+    </div>
+  </div>
+ 
+</div>
+
+</form> 
+</section>
+ </fieldset>
+<footer>
+ <p align="right" style="font-size:20px">
+ <b>Online Shopping Sri Lanka with Home Delivery</b></p>
+ <p align="center" style="color:red">
+ <b>Quick Links:</b><br><br>
+ <b><a href="../html/Home page2.html">HOME</a></b><br>
+ <b><a href="../html/Category.html">Categories</a></b><br>
+ <b><a href="#">Help and Feedback</a></b><br>
+ <b><a href="../html/ContactUs.html">Contact Us</a></b></p>
+ 
+ <div class="store-icons">
+ <img src="..\images\stores.jpg">
+ </div>
+ 
+<p class="follow" align="left"><b> Follow Us On:</b></p>
+<div class="social-icons">
+        <a href="#" ><img src="..\images\fb.jpg"></a>
+		<a href="#" ><img src="..\images\tw.png"></a>
+		<a href="#" ><img src="..\images\goo.png"></a>
+</div>
+
+<p class="payment" align="right"><b> Payment Methods: </b></p>
+<div class="pay-icons">
+        <a href="#"><img src="..\images\visa.png"></a>
+		<a href="#"><img src="..\images\master.png"></a>
+		<a href="#"><img src="..\images\paypal.png"></a>
+</div>
+
+</footer>
+
+</body>
+</html>

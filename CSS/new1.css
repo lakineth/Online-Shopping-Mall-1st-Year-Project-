@@ -1,0 +1,36 @@
+.form1{
+	margin:auto;
+	margin-right:400px;
+	margin-left:500px;
+	background-color:yellow;
+	border:doted;
+	border-width:3px;
+	height:600px;
+	padding-left:50px;
+	padding-top:50px;
+}
+
+#reset {
+	float:left;
+	background-color:orange;
+	color:white;
+	border-radius:5px;
+	cursor:pointer;
+	position:relative;
+	padding:9px;
+	font-family:sans-serif;
+	border:none;
+	font-size:12px;
+	width:100px;
+	height:40px;
+	margin-left:170px;
+}
+
+#reset:hover{
+	background-color:purple;
+}
+
+label{
+	font-size:20px;
+	float:left;
+}

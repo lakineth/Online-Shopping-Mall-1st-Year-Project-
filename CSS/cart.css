@@ -1,0 +1,75 @@
+
+.card-page{
+margin: 80px auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse; 
+}
+
+.cart-info{
+display: flex;
+flex-wrap: wrap;
+}
+
+th{
+text-align: left;
+padding: 5px;
+color: #fff;
+background: #ff523b;
+font-weight: normal;
+}	
+
+td{
+	padding: 10px 5px;
+}
+
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+
+td a{
+	color: #ff523b;
+	font-size: 12px;	
+}
+
+td img{
+	width: 120px;
+	height: 120px;
+	margin-right: 10px;		
+}
+
+.total-price{
+	display:flex;
+	justify-content: flex-end;	
+}
+
+.total-price table{
+	border-top:3px solid #DA33FF;
+	width: 100%;
+	max-width: 350px;	
+}
+
+td:last-child{
+	text-align:right;
+	color:blue;
+}
+td:last-child{
+	text-align:right;
+	color:#0700F1;
+}
+.Check-Out{
+	border: 2px solid orange;
+	padding: 5px 14px;
+	background-color:orange;
+	color: white;
+	text-transform: uppercase;
+	flex: left;
+	font-weight: 400px;
+	cursor: pointer;
+	font-family: arial;
+	border-radius: 12px;
+
